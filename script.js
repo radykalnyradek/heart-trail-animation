@@ -1,7 +1,6 @@
 const body = document.querySelector("body");
 const span = document.querySelector("span");
 span.remove();
-
 body.addEventListener("mousemove", (event) => {
   const xPos = event.offsetX;
   const yPos = event.offsetY;
